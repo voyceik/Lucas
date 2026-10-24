@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+._*
+
+# Renders e bounces de áudio (grandes, regeneráveis)
+renders/
+bounces/
+exports/
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.m4a
+*.ogg
+
+# Ableton Live
+Backup/
+*.asd
+Ableton Project Info/
+
+# FL Studio
+*.flp.bak
+Backup/
+
+# Logic Pro / GarageBand
+*.logicx/Alternatives/*/Undo Data/
+Bounces/
+Freeze Files/
+
+# Bitwig / Reaper
+*.bwproject.bak
+*.rpp-bak
+*.reapeaks
+
+# Caches e temporários
+*.tmp
+*.cache
+__pycache__/
+node_modules/
+.venv/
